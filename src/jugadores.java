@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class jugadores {
     String nombre;
     String posicion;
@@ -15,11 +16,21 @@ public class jugadores {
     }
 
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         jugadores persona1 = new jugadores("Josue", "medio campo", 20, 23);
         persona1.impresion();
         jugadores persona2 = new jugadores("Alex", "defensa", 24, 11);
         persona2.impresion();
-        jugadores persona3 = new jugadores("Daniel", "delantero", 17, 9);
+
+        System.out.print("Ingrese el Nombre del Jugador: ");
+        String nombre = input.nextLine();
+        System.out.print("Ingrese la posicion del Jugador: ");
+        String posicion = input.nextLine();
+        System.out.print("Ingrese el Edad del Jugador: ");
+        int edad = input.nextInt();
+        System.out.print("Ingrese el Numero de camisa: ");
+        int numero = input.nextInt();
+        jugadores persona3 = new jugadores(nombre, posicion, edad, numero);
         persona3.impresion();
     }
 }
