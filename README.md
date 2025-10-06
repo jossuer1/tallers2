@@ -4,7 +4,8 @@ Objetivo: Desarrollar una clase en Java llamada Jugador que tenga los atributos 
 Luego, crear tres objetos de esta clase, cada uno representando un jugador diferente. 
 Realizar EL REGISTRO de los atributos con datos quemados y utilizando Scanner combinar 
 
-  <img width="573" height="203" alt="Captura de pantalla 2025-10-06 121816" src="https://github.com/user-attachments/assets/2a32bf9c-8156-445e-92bd-8294782a9154" />
+ <img width="552" height="181" alt="Captura de pantalla 2025-10-06 124121" src="https://github.com/user-attachments/assets/930d894d-17d2-4a7b-ba3d-e6f7b20ae802" />
+
   
 EJERCICIO 2 
 
